@@ -14,10 +14,10 @@ function getWeatherData(city) {
             // Process the data and display weather information
             weatherInfo.innerHTML = `
                 <div class="info">
-                    <h2 class="city-name">Ushbu shahar ${data.name} 🏙</h2>
-                    <p class="temp">Harorat: ${data.main.temp}°C 🌡</p>
+                    <h2 class="city-name">Ushbu shahar ${data.name} 🏡</h2>
+                    <p class="temp">Harorat: ${data.main.temp}°C 🌞</p>
                     <p class="humid">Namligi: ${data.main.humidity}% 💦</p>
-                    <p class="desc">Tavsif: ${data.weather[0].description} 🎞</p>
+                    <p class="desc">Tavsif: ${data.weather[0].description} 🌈</p>
                 </div>
             `;
         })
